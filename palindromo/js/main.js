@@ -7,6 +7,10 @@
 
 
 palindroma(prompt("inserisci una parola e ti dirò se è palindroma"));
+/* oppure */
+// var testo = prompt("inserisci una parola e ti dirò se è palindroma");
+// palindroma(testo);
+
 
 //var palindroma = (parola) => {
 function palindroma(parola) {
