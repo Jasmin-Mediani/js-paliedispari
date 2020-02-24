@@ -14,12 +14,12 @@ palindroma(prompt("inserisci una parola e ti dirò se è palindroma"));
 
 //var palindroma = (parola) => {
 function palindroma(parola) {
-    var isPalindroma = parola.split("").reverse().join("");
-    //console.log(parola === isPalindroma);
-    if (parola.toLowerCase() === isPalindroma.toLowerCase()) {
-        console.log("la parola è palindroma: " + parola + " == " + isPalindroma)
+    var parolaRovesciata = parola.split("").reverse().join("");
+    //console.log(parola === parolaRovesciata);
+    if (parola.toLowerCase() === parolaRovesciata.toLowerCase()) {
+        console.log("la parola è palindroma: " + parola + " == " + parolaRovesciata)
     } else {
-        console.log("la parola non è palindroma: " + parola + " =/= " + isPalindroma)
+        console.log("la parola non è palindroma: " + parola + " =/= " + parolaRovesciata)
     }
 }
 
